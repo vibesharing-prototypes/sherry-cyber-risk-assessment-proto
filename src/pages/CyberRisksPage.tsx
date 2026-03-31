@@ -465,7 +465,7 @@ function CustomToolbar() {
               value={value ?? ""}
               label="Search by"
               placeholder="Search by"
-              size="small"
+              size="medium"
               slotProps={{
                 input: {
                   startAdornment: (
@@ -633,7 +633,7 @@ export default function CyberRisksPage() {
               </Typography>
             }
             action={
-              <Select value="all" size="small" sx={{ minWidth: 180 }}>
+              <Select value="all" size="medium" sx={{ minWidth: 180 }}>
                 <MenuItem value="all">All business units</MenuItem>
               </Select>
             }
